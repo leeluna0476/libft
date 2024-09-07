@@ -15,7 +15,7 @@ OBJS_DIR=.objs
 OBJS=$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
 
 DEPS_DIR=.deps
-DEPS=$(addprefix $(DEPS_DIR)/, $(OBJS:.o=.d))
+DEPS=$(addprefix $(DEPS_DIR)/, $(SRCS:.c=.d))
 
 -include $(DEPS)
 
