@@ -7,7 +7,7 @@ make
 ```
 
 # features
-`func*`: This uses `malloc()`, `free()` after use!
+`func*`: This uses `malloc()`. Don't forget to `free()` after use!
 ## libc
 - [x] `isalpha`
 - [x] `isdigit`
