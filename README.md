@@ -29,8 +29,9 @@ make
 - [ ] `memchr`
 - [ ] `memcmp`
 - [ ] `strnstr`
-- [ ] `atoi*`
+- [ ] `atoi`
 - [ ] `calloc*`
+- [ ] `strdup*`
 ## libft originals
 - [ ] `ft_substr*`
 - [ ] `ft_strjoin*`
