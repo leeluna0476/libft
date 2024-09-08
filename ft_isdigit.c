@@ -24,5 +24,5 @@ RETURN VALUES
 
 int	ft_isdigit(int c)
 {
-    return ((int)(c - '0' < 10))
+    return ((int)((unsigned)(c - '0') < 10));
 }
