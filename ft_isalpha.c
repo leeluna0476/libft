@@ -14,5 +14,5 @@ RETURN VALUES
 
 int	ft_isalpha(int c)
 {
-	return ((c | 32) - 'a' < 26);
+	return (((unsigned)c | 32) - 'a' < 26);
 }
