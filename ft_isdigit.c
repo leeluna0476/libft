@@ -24,9 +24,5 @@ RETURN VALUES
 
 int	ft_isdigit(int c)
 {
-	if (1 <= c && c <= 10)
-	{
-		return (1);
-	}
-	return (0);
+    return ((int)(c - '0' < 10))
 }
