@@ -10,6 +10,7 @@ SRCS= \
 	ft_isalnum.c \
 	ft_isalpha.c \
 	ft_isdigit.c \
+	ft_isascii.c \
 
 OBJS_DIR=.objs
 OBJS=$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
