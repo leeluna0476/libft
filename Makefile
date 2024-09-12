@@ -11,6 +11,7 @@ SRCS= \
 	ft_isalpha.c \
 	ft_isdigit.c \
 	ft_isascii.c \
+	ft_isprint.c \
 
 OBJS_DIR=.objs
 OBJS=$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
