@@ -11,5 +11,7 @@ int		ft_isprint(int c);
 # include <ctype.h>
 
 size_t	ft_strlen(const char *str);
+void*	ft_memset(void* b, int c, size_t len);
+void*	ft_bzero(void* s, size_t n);
 
 #endif

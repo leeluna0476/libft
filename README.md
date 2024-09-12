@@ -15,8 +15,8 @@ make
 - [x] `isascii`
 - [x] `isprint`
 - [x] `strlen`
-- [ ] `memset`
-- [ ] `bzero`
+- [x] `memset`
+- [x] `bzero`
 - [ ] `memcpy`
 - [ ] `memmove`
 - [ ] `strlcpy`
