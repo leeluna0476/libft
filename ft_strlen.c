@@ -12,12 +12,12 @@ RETURN VALUES
 
 # include "libft.h"
 
-size_t	ft_strlen(const char *str)
+size_t	ft_strlen(const char *s)
 {
 	size_t	c;
 
 	c = 0;
-	while (str[c])
+	while (s[c])
 	{
 		c++;
 	}
