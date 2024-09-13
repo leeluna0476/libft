@@ -17,8 +17,8 @@ make
 - [x] `strlen`
 - [x] `memset`
 - [x] `bzero`
-- [ ] `memcpy`
-- [ ] `memmove`
+- [x] `memcpy`
+- [x] `memmove`
 - [ ] `strlcpy`
 - [ ] `strlcat`
 - [ ] `toupper`
