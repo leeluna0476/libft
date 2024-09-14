@@ -19,7 +19,7 @@ make
 - [x] `bzero`
 - [x] `memcpy`
 - [x] `memmove`
-- [ ] `strlcpy`
+- [x] `strlcpy`
 - [ ] `strlcat`
 - [ ] `toupper`
 - [ ] `tolower`
