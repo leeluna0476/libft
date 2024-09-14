@@ -21,7 +21,7 @@ make
 - [x] `memmove`
 - [x] `strlcpy`
 - [x] `strlcat`
-- [ ] `toupper`
+- [x] `toupper`
 - [x] `tolower`
 - [ ] `strchr`
 - [ ] `strrchr`
