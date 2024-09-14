@@ -18,6 +18,9 @@ SRCS= \
 	ft_memmove.c \
 	ft_strlen.c \
 	ft_strlcpy.c \
+	ft_strlcat.c \
+	ft_toupper.c \
+	ft_tolower.c \
 
 OBJS_DIR=.objs
 OBJS=$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))

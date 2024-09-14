@@ -20,9 +20,9 @@ make
 - [x] `memcpy`
 - [x] `memmove`
 - [x] `strlcpy`
-- [ ] `strlcat`
+- [x] `strlcat`
 - [ ] `toupper`
-- [ ] `tolower`
+- [x] `tolower`
 - [ ] `strchr`
 - [ ] `strrchr`
 - [ ] `strncmp`
