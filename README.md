@@ -14,11 +14,11 @@ make
 - [x] `isalnum`
 - [x] `isascii`
 - [x] `isprint`
-- [x] `strlen`
 - [x] `memset`
 - [x] `bzero`
 - [x] `memcpy`
 - [x] `memmove`
+- [x] `strlen`
 - [x] `strlcpy`
 - [x] `strlcat`
 - [x] `toupper`
