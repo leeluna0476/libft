@@ -18,6 +18,8 @@ make
 - [x] `bzero`
 - [x] `memcpy`
 - [x] `memmove`
+- [ ] `memchr`
+- [ ] `memcmp`
 - [x] `strlen`
 - [x] `strlcpy`
 - [x] `strlcat`
@@ -26,12 +28,10 @@ make
 - [x] `strchr`
 - [x] `strrchr`
 - [ ] `strncmp`
-- [ ] `memchr`
-- [ ] `memcmp`
 - [ ] `strnstr`
+- [ ] `strdup*`
 - [ ] `atoi`
 - [ ] `calloc*`
-- [ ] `strdup*`
 ## libft originals
 - [ ] `ft_substr*`
 - [ ] `ft_strjoin*`
