@@ -3,15 +3,24 @@
 char	*ft_strchr(const char *s, int c)
 {
 	char	chr;
+	size_t	i;
 
 	chr = (char)c;
-	while(*s)
+	i = 0;
+	while (s[i])
 	{
-		if (*s == chr)
+		if (s[i] == chr)
 		{
-			return (char *)s;
+			return ((char *)s + i);
 		}
-		s++;
+		++i;
 	}
-	return (NULL);
+	if (c == 0)
+	{
+		return ((char *)s + i);
+	}
+	else
+	{
+		return (NULL);
+	}
 }
