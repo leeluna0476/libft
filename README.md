@@ -23,7 +23,7 @@ make
 - [x] `strlcat`
 - [x] `toupper`
 - [x] `tolower`
-- [ ] `strchr`
+- [x] `strchr`
 - [ ] `strrchr`
 - [ ] `strncmp`
 - [ ] `memchr`
