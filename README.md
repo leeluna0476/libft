@@ -3,7 +3,7 @@ This is the second version of my libft.
 
 ```bash
 $ git clone git@github.com:leeluna0476/libft.git
-make
+$ make
 ```
 
 # features
