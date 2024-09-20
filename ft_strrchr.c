@@ -2,7 +2,6 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	char	chr;
 	size_t	i;
 	
 	chr = (char)c;
