@@ -18,7 +18,7 @@ $ make
 - [x] `bzero`
 - [x] `memcpy`
 - [x] `memmove`
-- [ ] `memchr`
+- [x] `memchr`
 - [ ] `memcmp`
 - [x] `strlen`
 - [x] `strlcpy`
