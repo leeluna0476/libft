@@ -27,7 +27,7 @@ $ make
 - [x] `tolower`
 - [x] `strchr`
 - [x] `strrchr`
-- [ ] `strncmp`
+- [x] `strncmp`
 - [ ] `strnstr`
 - [ ] `strdup*`
 - [ ] `atoi`
