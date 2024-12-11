@@ -17,6 +17,7 @@ SRCS= \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memchr.c \
+	ft_memcmp.c \
 	ft_strlen.c \
 	ft_strlcpy.c \
 	ft_strlcat.c \

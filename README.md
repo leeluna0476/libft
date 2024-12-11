@@ -19,7 +19,7 @@ $ make
 - [x] `memcpy`
 - [x] `memmove`
 - [x] `memchr`
-- [ ] `memcmp`
+- [x] `memcmp`
 - [x] `strlen`
 - [x] `strlcpy`
 - [x] `strlcat`
