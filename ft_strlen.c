@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 17:20:19 by seojilee          #+#    #+#             */
-/*   Updated: 2024/12/10 17:20:21 by seojilee         ###   ########.fr       */
+/*   Updated: 2024/12/11 20:04:40 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,9 @@ size_t	ft_strlen(const char *s)
 	size_t	i;
 
 	i = 0;
-	while (s[i])
+	while (*s)
 	{
+		++s;
 		++i;
 	}
 	return (i);

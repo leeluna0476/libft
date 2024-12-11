@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 16:44:05 by seojilee          #+#    #+#             */
-/*   Updated: 2024/12/11 18:59:54 by seojilee         ###   ########.fr       */
+/*   Updated: 2024/12/11 19:18:56 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		{
 			return (*us1 - *us2);
 		}
-		--n;
 		++us1;
 		++us2;
+		--n;
 	}
 	return (0);
 }

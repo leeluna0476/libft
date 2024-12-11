@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 17:00:01 by seojilee          #+#    #+#             */
-/*   Updated: 2024/12/11 19:00:05 by seojilee         ###   ########.fr       */
+/*   Updated: 2024/12/11 19:57:30 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,9 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		{
 			break ;
 		}
-		--n;
 		++us1;
 		++us2;
+		--n;
 	}
 	return (0);
 }
