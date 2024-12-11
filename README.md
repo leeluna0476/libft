@@ -3,7 +3,10 @@ This is the second version of my libft.
 
 ```bash
 $ git clone git@github.com:leeluna0476/libft.git
+$ cd libft
 $ make
+$ vim main.c # write a main()
+$ cc main.c -lft -L./
 ```
 
 # features
