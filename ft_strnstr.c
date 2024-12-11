@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 17:34:00 by seojilee          #+#    #+#             */
-/*   Updated: 2024/12/11 18:54:05 by seojilee         ###   ########.fr       */
+/*   Updated: 2024/12/11 19:00:32 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	{
 		if (ft_strncmp(haystack, needle, needle_len) == 0)
 		{
-			return ((char*)haystack);
+			return ((char *)haystack);
 		}
 		++haystack;
 		--len;
