@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:20:05 by seojilee          #+#    #+#             */
-/*   Updated: 2025/01/30 19:37:10 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/01/30 19:44:47 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,20 +15,22 @@
 
 static long	check_overflow(long sign, long num, long digit)
 {
-	static const long	long_div_ten = LONG_MAX / 10;
+	static const long	long_max_div_ten = LONG_MAX / 10;
+	static const long	long_max_mod_ten = LONG_MAX % 10;
+	static const long	long_min_mod_ten = LONG_MAX % 10 + 1;
 
-	if (num > long_div_ten)
+	if (num > long_max_div_ten)
 	{
 		if (sign == -1)
 			return (LONG_MIN);
 		else
 			return (LONG_MAX);
 	}
-	else if (num == long_div_ten)
+	else if (num == long_max_div_ten)
 	{
-		if (sign == -1 && digit > 8)
+		if (sign == -1 && digit > long_min_mod_ten)
 			return (LONG_MIN);
-		else if (sign == 1 && digit > 7)
+		else if (sign == 1 && digit > long_max_mod_ten)
 			return (LONG_MAX);
 	}
 	return (0);
