@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:20:05 by seojilee          #+#    #+#             */
-/*   Updated: 2025/01/30 19:31:18 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/01/30 19:33:01 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int	ft_atoi(const char *str)
 		digit = *str - '0';
 		under_overflow = check_overflow(sign, num, digit);
 		if (under_overflow)
-			return under_overflow;
+			return (under_overflow);
 		num *= 10;
 		num += digit;
 		++str;
