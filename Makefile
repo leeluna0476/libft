@@ -25,6 +25,7 @@ SRCS= \
 	ft_strrchr.c \
 	ft_strnstr.c \
 	ft_strncmp.c \
+	ft_strdup.c \
 	ft_toupper.c \
 	ft_tolower.c \
 
