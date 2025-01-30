@@ -33,7 +33,7 @@ $ cc main.c -lft -L./
 - [x] `strnstr`
 - [x] `strncmp`
 - [x] `strdup*`
-- [ ] `atoi`
+- [x] `atoi`
 - [ ] `calloc*`
 ## libft originals
 - [ ] `ft_substr*`
