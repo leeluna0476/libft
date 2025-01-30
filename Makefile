@@ -28,6 +28,9 @@ SRCS= \
 	ft_strdup.c \
 	ft_toupper.c \
 	ft_tolower.c \
+	ft_putchar_fd.c \
+	ft_putstr_fd.c \
+	ft_putendl_fd.c \
 
 OBJS_DIR=.objs
 OBJS=$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
