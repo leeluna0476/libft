@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 17:24:45 by seojilee          #+#    #+#             */
-/*   Updated: 2025/01/30 15:11:46 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/01/30 19:13:56 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,8 @@ char	*ft_strdup(const char *s1);
 
 int		ft_toupper(int c);
 int		ft_tolower(int c);
+
+int		ft_atoi(const char *str);
 
 // libft originals
 void	ft_putchar_fd(char c, int fd);
