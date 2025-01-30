@@ -17,7 +17,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	const size_t	src_len = ft_strlen(src);
 	size_t			cpsize;
 
-	src_len = ft_strlen(src);
 	if (dstsize != 0)
 	{
 		cpsize = dstsize - 1;
