@@ -32,7 +32,7 @@ $ cc main.c -lft -L./
 - [x] `strrchr`
 - [x] `strnstr`
 - [x] `strncmp`
-- [ ] `strdup*`
+- [x] `strdup*`
 - [ ] `atoi`
 - [ ] `calloc*`
 ## libft originals
