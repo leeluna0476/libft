@@ -37,7 +37,7 @@ $ cc main.c -lft -L./
 - [x] `calloc*`
 ## libft originals
 - [x] `ft_substr*`
-- [ ] `ft_strjoin*`
+- [x] `ft_strjoin*`
 - [ ] `ft_strtrim*`
 - [ ] `ft_split*`
 - [ ] `ft_itoa*`
