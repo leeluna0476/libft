@@ -38,7 +38,7 @@ $ cc main.c -lft -L./
 ## libft originals
 - [x] `ft_substr*`
 - [x] `ft_strjoin*`
-- [ ] `ft_strtrim*`
+- [x] `ft_strtrim*`
 - [ ] `ft_split*`
 - [ ] `ft_itoa*`
 - [ ] `ft_strmapi*`
