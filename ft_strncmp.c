@@ -22,13 +22,9 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	while (n > 0)
 	{
 		if (*us1 != *us2)
-		{
 			return (*us1 - *us2);
-		}
 		else if (!*us1 || !*us2)
-		{
 			break ;
-		}
 		++us1;
 		++us2;
 		--n;
