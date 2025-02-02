@@ -23,9 +23,7 @@ char	*ft_strrchr(const char *s, int c)
 	while (*s != chr)
 	{
 		if (i == 0)
-		{
 			return (NULL);
-		}
 		--s;
 		--i;
 	}
