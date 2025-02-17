@@ -22,7 +22,7 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	joined_str = malloc(join_len + 1);
 	if (joined_str)
 	{
-		ft_strlcpy(joined_str, s1, join_len + 1);
+		ft_strlcpy(joined_str, s1, s1_len + 1);
 		ft_strlcpy(joined_str + s1_len, s2, s2_len + 1);
 	}
 	return (joined_str);
