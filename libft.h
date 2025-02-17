@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 17:24:45 by seojilee          #+#    #+#             */
-/*   Updated: 2025/02/01 22:29:16 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/02/17 12:31:22 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 
 # include <ctype.h>
 # include <stdlib.h>
+
+typedef struct s_vector
+{
+	char	**ptr;
+	size_t	mem_size;
+}	t_vector;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -48,6 +54,7 @@ int		ft_atoi(const char *str);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*ft_strtrim(const char *s1, const char *set);
+char	**ft_split(const char *s, char c);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
