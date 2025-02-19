@@ -2,7 +2,8 @@
 
 NAME=libft.a
 CC=cc
-CFLAGS=-Wall -Wextra -Werror -Wpedantic -MMD -MP -MF $(DEPS_DIR)/$*.d
+CFLAGS=-Wall -Wextra -Werror -Wpedantic
+CPPFLAGS=-MMD -MP -MF $(DEPS_DIR)/$*.d
 AR=ar
 ARFLAGS=rc
 
