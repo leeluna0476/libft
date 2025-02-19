@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/02 16:45:02 by seojilee          #+#    #+#             */
-/*   Updated: 2025/02/17 13:11:28 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/02/19 13:38:00 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,11 +96,11 @@ char	**ft_split(const char *s, char c)
 		}
 		token_len = skip_delimeter_or_else(s, c, false);
 		vec.ptr[i] = ft_substr(s, 0, token_len);
-		if (!vec.ptr[i++])
+		if (!vec.ptr[i])
 			return (delete_strings(vec.ptr));
+		vec.ptr[++i] = NULL;
 		s += token_len;
 		s += skip_delimeter_or_else(s, c, true);
 	}
-	vec.ptr[i] = NULL;
 	return (vec.ptr);
 }
