@@ -41,7 +41,7 @@ $ cc main.c -lft -L./
 - [x] `ft_strtrim*`
 - [x] `ft_split*`
 - [ ] `ft_itoa*`
-- [ ] `ft_strmapi*`
+- [x] `ft_strmapi*`
 - [ ] `ft_striteri`
 - [x] `ft_putchar_fd`
 - [x] `ft_putstr_fd`
