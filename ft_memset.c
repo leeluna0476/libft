@@ -6,7 +6,7 @@
 /*   By: seojilee <seojilee@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 17:20:04 by seojilee          #+#    #+#             */
-/*   Updated: 2025/04/09 11:09:47 by seojilee         ###   ########.fr       */
+/*   Updated: 2025/04/09 11:30:32 by seojilee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,15 @@ static void	fill_in_buf_by_size(void *p, size_t c, size_t len, size_t type_size)
 	size_t	i;
 
 	i = 0;
-	while (i < len)
+	if (type_size == sizeof(size_t))
 	{
-		if (type_size == sizeof(size_t))
-			((size_t *)p)[i] = c;
-		else
-			((unsigned char *)p)[i] = c;
-		++i;
+		while (i < len)
+			((size_t *)p)[i++] = c;
+	}
+	else
+	{
+		while (i < len)
+			((unsigned char *)p)[i++] = c;
 	}
 }
 
